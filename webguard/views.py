@@ -1,4 +1,5 @@
 import json
+from . import app
 from flask import Flask, render_template, request, url_for, send_from_directory, jsonify
 from werkzeug.utils import secure_filename
 from flask_cors import CORS, cross_origin
